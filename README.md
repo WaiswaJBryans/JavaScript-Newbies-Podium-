@@ -1,4 +1,4 @@
-# JavaScript-Newbies-Podium-
+O0# JavaScript-Newbies-Podium-
 This repository was intended to help junior javascript developer on basic javascript
 
 <h3>REST PARAMETER</h3>
@@ -32,4 +32,5 @@ connect with me here:
 
 <a href = 'https://twitter.com/@WaiswaBryans'>Twitter</a><br>
 <a href = 'https://github.com/@WaiswaJBryans'>Github</a>
+
 <a href='https://codepen.io/Waisbryans'>codepen</a>
