@@ -25,6 +25,7 @@ how cool is that?
 Here is an example of how you can use the rest operator in a function definition:
 <hr>
 <div style='background:black;'><code>
+
 function sum(...num) {
   var result = 0;
   for(var i = 0; i < num.length; i++) {
@@ -34,6 +35,7 @@ function sum(...num) {
 }
 
 console.log(sum(1, 2, 3, 4, 5)); // 15
+
 </code></div>
 <hr>
  In this example, the sum function takes an indefinite number of arguments, which are represented as an array called numbers. The function then iterates over the numbers array and calculates the sum of all the numbers.
@@ -51,6 +53,7 @@ console.log(sum(1, 2, 3, 4, 5)); // 15
 1. function calls:
 <hr>
 <code>
+
 const numberList = [1, 2, 3, 4, 5,6,7];
 console.log(Math.max(...numberList));
 
@@ -61,6 +64,7 @@ console.log(Math.max(...numberList));
 2. array literals:
 <hr>
 <code>
+
 const fruits = ['apple', 'banana', 'orange'];
 const moreFruits = ['mango', 'kiwi', ...fruits];
 console.log(moreFruits); 
@@ -72,6 +76,7 @@ console.log(moreFruits);
 3. object literals.
 <hr>
 <code>
+
 const person = {
   name: 'John',
   age: 30
